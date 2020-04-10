@@ -1,0 +1,117 @@
+/*
+Master Stylesheet
+==================================
+Tamplate Name:Anso
+Author:samafe islam tonnyma
+Author Url:http//samafe.com
+description: PSD to HTML Prectise
+tag:Blog
+*/
+/*
+      Contents
+      ==============
+      1.typrography
+      2.heading
+      3.pragraph
+      4. newsletter
+      5.Button
+      6.Footer
+      
+*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*==========================
+     TRYPOGRAPHY
+     =========================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+box-sizing: border-box;
+}
+body{
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #898989;
+
+}
+h1,h2,h3,h4,h5,h6{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+  margin: 0;
+  color: #010101;
+}
+
+p{
+  margin: 0;
+}
+/*==========================
+        Header
+     =========================
+*/
+header{
+  background-color: #ffffff;
+}
+.main{
+  width: 80%;
+  margin: 0 auto;
+
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+
+  align-items: center;
+}
+.logo{
+  width: 10%;
+}
+.navbar{
+    width: 80%;
+}
+.navbar ul{
+  text-align: right;
+}
+.navbar ul li{
+  display: inline-block;
+  
+}
+.navbar ul li:first-child a{
+  color: #5ebb46;
+  padding-left: 0;
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: #010101;
+  text-transform: capitalize;
+  padding: 0 15px;
+}
+
+.navbar ul li:last-child a{
+  padding-left:0;
+}
+button {
+  height: 35px;
+  width: 120%;
+  border-radius:3px;
+  background-color:#ffffff; 
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 15px;
+  color: #010101; 
+  cursor: pointer;
+
+ }
+  
+ ul li:last-child button{ 
+ margin-left: 25px;
+ background-color:#5ebb46;
+ padding-right:0; 
+}
